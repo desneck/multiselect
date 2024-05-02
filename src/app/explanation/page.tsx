@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Explanation = () => {
@@ -5,8 +6,11 @@ const Explanation = () => {
 
 
 
-    <div className='text-center mt-16 max-w-4xl mx-auto'>
-        <h1 className='mb-4 font-bold text-4xl '>
+    <div className='text-center mt-36 max-w-4xl mx-auto'>
+        <Link href={"/"} className='border p-1 rounded-xl border-black '>
+            Go back
+        </Link>
+        <h1 className='mb-4 font-bold text-4xl mt-4'>
             MultiSelect Component
         </h1>
         <p className='text-center mb-4 '>
@@ -16,7 +20,7 @@ const Explanation = () => {
 
         </p>
 
-        
+
 
 
     </div>
